@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <link href='' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./assets/main.css" charset="utf-8">
+    <script src="./lib/prefixfree.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <main id='root'>
+      <article id='introduction'>
+        <div class='logo-container'>
+        </div>
+        <div class='example-container'>
+          <img src='./assets/example.png' alt='game example' />
+        </div>
+        <button id='start'>Start</button>
+        <footer class='footer'>
+          <a href='https://github.com/MrBulldog'>
+            <img src='./assets/GitHub.png' alt='GitHub Icon'  />
+          </a>
+        </footer>
+      </article>
+      <header>
+        <div id='high-score' class='score'></div>
+        <div class='play-logo-container'>
+        </div>
+        <div id='score-box' class='score'></div>
+      </header>
+      <p id='target-word'></p>
+      <div id='choices-container'>
+        <button class='choice-button'></button>
+        <button class='choice-button'></button>
+        <button class='choice-button'></button>
+        <button class='choice-button'></button>
+      </div>
+      <button id='play-again' class='play-again-hide'>Play Again!</button>
+      <div class='strobe'>
+        <div id='countdown-timer'></div>
+      </div>
+      <p id='current-level'></p>
+      <footer class='footer'>
+        <a href='https://github.com/MrBulldog'>
+          <img src='./assets/GitHub.png' alt='GitHub Icon'  />
+        </a>
+      </footer>
+    </main>
+    <script src="./lib/bundle.js" charset="utf-8"></script>
+  </body>
+</html>
